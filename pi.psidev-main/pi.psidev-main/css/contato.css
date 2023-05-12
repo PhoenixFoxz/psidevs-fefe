@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.destaque-contato {
+    background: url(../assets/destaque-contato.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--quaternary-color);
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.destaque-contato h2 {
+    font-size: clamp(2rem, 10vw, 6rem);
+  max-width: 735px;
+  margin: 24px 0;
+}
+
+.destaque-contato p {
+    line-height: var(--line-height-secondary);
+  letter-spacing: var(--letter-spacing);
+  max-width: 900px;
+  line-height: 3rem;
+}
+
+.assunto {
+    margin-top: var(--margin-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.assunto form {
+    width: 500px;
+}
+
+.texto-contato {
+    max-width: 700px;
+    margin-left: 80px;
+}
